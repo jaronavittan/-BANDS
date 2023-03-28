@@ -1,0 +1,26 @@
+<?php
+
+
+$bands = array("papa roach", "limp bizkit", "Woody harrelson", "gorgorot", "on the shoulders of giants");
+$arrlength = count($bands);
+
+
+for($x = 0; $x < $arrlength; $x++) {
+  echo $bands[$x];
+  echo "<br>";
+}
+
+
+foreach($bands as $xs) {
+  echo $xs[-1];
+  echo "<br>";
+}
+
+
+
+
+
+
+
+
+?>
